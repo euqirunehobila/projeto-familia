@@ -117,7 +117,7 @@ footer {
 .carousel-control-prev,
 .carousel-control-next {
     width: 25%;
-    transform: translateY(10vw);
+    transform: translateY(-5vw);
 }
 
 
