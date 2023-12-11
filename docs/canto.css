@@ -15,7 +15,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #59a3f0;
+    
 }
 
 
@@ -62,7 +62,7 @@ main p{
 
 .conteiner{
     padding: 4em;
-    background-color:#005480 ;
+    
 }
 
 main .card{

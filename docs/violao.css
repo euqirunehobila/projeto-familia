@@ -9,7 +9,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
+    margin: 0;
+
 }
 
 #hover-aulas {
@@ -39,7 +40,7 @@ footer {
 
 
 .container-violao {
-    
+
     height: 70vh;
     background: #005480ff;
     width: 90vw;
@@ -49,12 +50,12 @@ footer {
     display: grid;
     grid-template-columns: 60% 40%;
     border-radius: 50px;
- 
+
 }
 
 
 .container-violao .img img {
-    
+
     border-radius: 50px;
     transform: translateY(-60%);
     margin-top: 20em;
@@ -117,7 +118,7 @@ footer {
 .carousel-control-prev,
 .carousel-control-next {
     width: 25%;
-    transform: translateY(-5vw);
+    transform: translateY(-5vh);
 }
 
 
@@ -125,4 +126,30 @@ footer {
     transform: translateY(360px);
 }
 
-  
+@media (max-width: 1366px) {
+
+    .container-violao {
+
+        height: 105vh;
+        background: #005480ff;
+        width: 90vw;
+        overflow: hidden;
+        transform: translate(-50%, 13em);
+        margin-left: 50%;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        border-radius: 50px;
+    
+    }
+
+    .container-violao .img img {
+
+        border-radius: 50px;
+        transform: translateY(-50%);
+        margin-top: 20em;
+        height: 80vh;
+    }
+
+
+
+}

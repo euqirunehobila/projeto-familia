@@ -52,7 +52,6 @@ main .conteiner .card img {
 
 main .conteiner {
     padding: 4em;
-    background-color: #005480;
     margin-top: 15em;
 }
 
@@ -73,6 +72,8 @@ main .card h3 {
 }
 
 main .card img {
+    margin-left: 5em;
+    border-radius: 10px;
     width: 400px;
 }
 
@@ -115,24 +116,7 @@ main .card div {
 
 
 @-webkit-keyframes scale-in-ver-top {
-    0% {
-        -webkit-transform: scaleY(0);
-        transform: scaleY(0);
-        -webkit-transform-origin: 100% 0%;
-        transform-origin: 100% 0%;
-        opacity: 1;
-    }
-
-    100% {
-        -webkit-transform: scaleY(1);
-        transform: scaleY(1);
-        -webkit-transform-origin: 100% 0%;
-        transform-origin: 100% 0%;
-        opacity: 1;
-    }
-}
-
-@keyframes card {
+    
     0% {
         -webkit-transform: scaleY(0);
         transform: scaleY(0);

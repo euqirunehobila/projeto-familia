@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: roboto;
     src: url(fonts/Roboto-Black.ttf);
@@ -39,6 +38,20 @@ main, footer{
 main .container {
     margin-top: 1em;
     height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    background-color: #005480;
+}
+
+main .container2 {
+    margin-top: 1em;
+    height: 50vh;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 50px;
     background-color: #005480;
 }
 
@@ -47,16 +60,24 @@ main .container h1 {
     font-size: 40px;
 }
 
-main p {
+.container p, .container2 p {
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     color: #e9edde;
 }
 
+.container h2, .container2 h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #e7e247;
+}
+
+
 main .container1 {
     background-color: #e7e247;
-    height: 130vh;
-    margin-top: 100px;
+    height: 90vh;
+    text-align: center;
+    transform: translateY(-20vh);
 
 }
 
@@ -155,14 +176,18 @@ main .fotos {
 main .fotos img {
     min-height: 20%;
     align-items: center;
-    height: 430px;
-    border-radius: 650px;
-    margin-right: 5%;
+    height: 350px;
+    border-radius: 150px;
+    margin-right: 2%;
     align-self: center;
     padding: 10px;
 }
 
 main .texto p {
+    margin-top: 10px;
+    font-size: 25px;
     color: #005480;
+    
 
 }
+
